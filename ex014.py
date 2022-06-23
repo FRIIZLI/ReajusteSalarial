@@ -12,14 +12,14 @@ nota2 = float(input('Informe a sua segunda nota: ').replace(',','.'))
 media = (nota1 + nota2) / 2
 
 if media >= 9.0:
-    print('A sua primeira nota é {} e a sua segunda nota é {}\nA sua média é {} e seu conceito "A".'.format(nota1, nota2, media))
+    print('A sua primeira nota é {} e a sua segunda nota é {}\nA sua média é {} e seu conceito "A", APROVADO.'.format(nota1, nota2, media))
 elif media >= 7.5:
-    print('A sua primeira nota é {} e a sua segunda nota é {}\nA sua média é {} e seu conceito "B".'.format(nota1, nota2, media))
+    print('A sua primeira nota é {} e a sua segunda nota é {}\nA sua média é {} e seu conceito "B". APROVADO'.format(nota1, nota2, media))
 elif media >= 6.0:
-    print('A sua primeira nota é {} e a sua segunda nota é {}\nA sua média é {} e seu conceito "C".'.format(nota1, nota2, media))
+    print('A sua primeira nota é {} e a sua segunda nota é {}\nA sua média é {} e seu conceito "C". APROVADO'.format(nota1, nota2, media))
 elif media >= 4.0:
-    print('A sua primeira nota é {} e a sua segunda nota é {}\nA sua média é {} e seu conceito "D".'.format(nota1, nota2, media))
+    print('A sua primeira nota é {} e a sua segunda nota é {}\nA sua média é {} e seu conceito "D". REPROVADO'.format(nota1, nota2, media))
 elif media <= 4.0:
-    print('A sua primeira nota é {} e a sua segunda nota é {}\nA sua média é {} e seu conceito "E".'.format(nota1, nota2, media))
+    print('A sua primeira nota é {} e a sua segunda nota é {}\nA sua média é {} e seu conceito "E". REPROVADO'.format(nota1, nota2, media))
 else:
     print('Valor digitado inválido.')
